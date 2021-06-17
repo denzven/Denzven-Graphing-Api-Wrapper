@@ -15,10 +15,10 @@ Installation
 
 Install DenzGraphingApiWrapper by running:
 
-	```pip install -i https://test.pypi.org/simple/ DenzGraphingApiWrapper-py-denzven==0.0.2```
+	``pip install -i https://test.pypi.org/simple/ DenzGraphingApiWrapper-py-denzven==0.0.2``
 
 Import it like this:
-	```from DenzGraphingApiWrapper_py import DenzGraphingApiWrapper_py as GraphingApi```
+	``from DenzGraphingApiWrapper_py import DenzGraphingApiWrapper_py as GraphingApi``
 
 Usage
 ------
@@ -33,7 +33,7 @@ Here are some examples on how to use this wrapper
 	>>> GraphingApi.heroku_graph(formula)
 	'https://denz-graphing-api-heroku.herokuapp.com/graph?formula=x%2A%2A2%2By%2A%2A2-10'
 
-	>>>GraphingApi.py_anywhere_graph(formula)
+	>>> GraphingApi.py_anywhere_graph(formula)
 	'http://denzven.pythonanywhere.com/graph?formula=%28x%2A%2A2%2By%2A%2A2-10'
 
 
