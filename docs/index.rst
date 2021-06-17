@@ -15,7 +15,7 @@ Installation
 
 Install DenzGraphingApiWrapper by running:
 
-	``pip install -i https://test.pypi.org/simple/ DenzGraphingApiWrapper-py-denzven==0.0.2``
+	``pip install -i https://test.pypi.org/simple/ DenzGraphingApiWrapper-py-denzven``
 
 Import it like this:
 	``from DenzGraphingApiWrapper_py import DenzGraphingApiWrapper_py as GraphingApi``
@@ -26,7 +26,7 @@ Here are some examples on how to use this wrapper
 ::
 
 
-	>>> from DenzGraphingApiWrapper_py import DenzGraphingApiWrapper_py as GraphingApi
+	>>> import DenzGraphingApiWrapper_py as GraphingApi
 
 	>>> formula = 'x**2+y**2-10'
 
