@@ -1,25 +1,49 @@
-DenzGraphingApi_py
+DenzGraphingApiWrapper_py
 ========
 
 DenzGraphingApi_py is an ApiWrapper for DenzGraphingApi. this will make life easy and makes using the api a hassle free experience
 
-Look how easy it is to use:
-
-    import project from test.pypi with:
-	```
 
 Features
 --------
 
 - makes life easier
-- upports discord embeds for discord bots
+- Supports discord embeds for discord bots
 
 Installation
 ------------
 
-Install DenzGraphingApi by running:
+Install DenzGraphingApiWrapper by running:
 
-    pip install -i https://test.pypi.org/simple/ DenzGraphingApiWrapper-py-denzven==0.0.2
+	```pip install -i https://test.pypi.org/simple/ DenzGraphingApiWrapper-py-denzven==0.0.2```
+
+Import it like this:
+	```from DenzGraphingApiWrapper_py import DenzGraphingApiWrapper_py as GraphingApi```
+
+Usage
+------
+Here are some examples on how to use this wrapper:
+
+```py
+>>> from DenzGraphingApiWrapper_py import DenzGraphingApiWrapper_py as GraphingApi
+
+>>> formula = 'x**2+y**2-10'
+
+>>> GraphingApi.heroku_graph(formula)
+'https://denz-graphing-api-heroku.herokuapp.com/graph?formula=x%2A%2A2%2By%2A%2A2-10'
+
+>>>GraphingApi.py_anywhere_graph(formula)
+'http://denzven.pythonanywhere.com/graph?formula=%28x%2A%2A2%2By%2A%2A2-10'
+```
+you can use this url as a picture in discord and also in embeds  like this:
+
+```py
+from DenzGraphingApiWrapper_py import DenzGraphingApiWrapper_py as GraphingApi
+insert epik code
+
+```
+
+
 
 Contribute
 ----------
