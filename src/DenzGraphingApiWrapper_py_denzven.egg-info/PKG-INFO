@@ -1,12 +1,14 @@
 Metadata-Version: 2.1
 Name: DenzGraphingApiWrapper-py-denzven
-Version: 0.0.2
+Version: 0.0.3
 Summary: An ApiWrapper for the DenzGraphingApi
 Home-page: UNKNOWN
 Author: Denzven
 Author-email: denzvenvadakkan@gmail.com
 License: UNKNOWN
 Project-URL: Bug Tracker, https://github.com/denzven/DenzGraphingApi_py/issues
+Project-URL: Documentation, https://denzgraphingapiwrapper-py.readthedocs.io/en/latest/
+Project-URL: Source, https://github.com/denzven/DenzGraphingApiWrapper_py
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
