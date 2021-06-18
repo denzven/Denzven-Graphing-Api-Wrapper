@@ -13,11 +13,12 @@ Installation
 ~~~~~~~~~~~~~ 
 
 Install DenzGraphingApiWrapper by running:  	
-``pip install DenzGraphingApiWrapper-py`` 	
-or
-``pip install git+https://github.com/denzven/DenzGraphingApiWrapper_py.git``
+	``pip install DenzGraphingApiWrapper-py`` 	
+	or
+	``pip install git+https://github.com/denzven/DenzGraphingApiWrapper_py.git``
 
-Import it like this: 	``import DenzGraphingApiWrapper_py as GraphingApi`` 
+Import it like this: 	
+	``import DenzGraphingApiWrapper_py as GraphingApi`` 
 
 Usage
 ~~~~~~
@@ -36,8 +37,8 @@ you can use this url as a picture in discord and also in embeds  like this
 
 ::  	
 
-import DenzGraphingApiWrapper_py as GraphingApi 	
-insert epik code  
+	import DenzGraphingApiWrapper_py as GraphingApi 	
+	insert epik code  
 
 Contribute
 ~~~~~~~~~~ 
