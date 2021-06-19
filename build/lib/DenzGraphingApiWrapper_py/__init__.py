@@ -52,3 +52,4 @@ def async_file_graph(formula_input):
                 file_ = open(file, "wb")
                 file_.write(await r.read())
                 file_.close()
+                return file
