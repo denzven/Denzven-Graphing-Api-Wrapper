@@ -1,4 +1,4 @@
-README.md
+README.rst
 pyproject.toml
 setup.cfg
 src/DenzGraphingApiWrapper_py/__init__.py
