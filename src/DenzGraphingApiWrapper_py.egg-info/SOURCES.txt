@@ -1,8 +1,0 @@
-README.rst
-pyproject.toml
-setup.cfg
-src/DenzGraphingApiWrapper_py/__init__.py
-src/DenzGraphingApiWrapper_py.egg-info/PKG-INFO
-src/DenzGraphingApiWrapper_py.egg-info/SOURCES.txt
-src/DenzGraphingApiWrapper_py.egg-info/dependency_links.txt
-src/DenzGraphingApiWrapper_py.egg-info/top_level.txt

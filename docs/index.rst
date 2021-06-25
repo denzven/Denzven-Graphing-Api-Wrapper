@@ -16,7 +16,7 @@ Installation
 Install DenzGraphingApiWrapper by running:
 
 	``pip install DenzGraphingApiWrapper-py``
-	``pip install git+https://github.com/denzven/DenzGraphingApiWrapper_py.git``
+	``pip install git+https://github.com/denzven/Denzven-Graphing-Api-Wrapper.git``
 	
 
 Import it like this:
