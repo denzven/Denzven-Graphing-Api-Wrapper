@@ -4,14 +4,14 @@ with open("README.rst", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="Denzven-Graphing-Api-Wrapper",
-    version="0.0.0.4",
+    name="Denzven_Graphing_Api_Wrapper",
+    version="0.0.0.5",
     author="Denzven",
     author_email="denzvenvadakkan@gmail.com",
     description="An Api Wrapper for the Denzven-Graphing-Api",
     long_description=long_description,
-    long_description_content_type="text/markdown",
-    url="https://github.com/denzven/Denzven-Graphing-Api-Wrapper",
+    long_description_content_type='text/markdown',
+    url="https://denzven.pythonanywhere.com",
     project_urls={
 	"Bug Tracker": "https://github.com/denzven/Denzven-Graphing-Api-Wrapper/issues",
 	"Documentation": "https://denzgraphingapiwrapper-py.readthedocs.io/en/latest/",
@@ -23,5 +23,7 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    package_dir={"": "src"},
+    packages=setuptools.find_packages(where="src"),
     python_requires=">=3.6",
 )
