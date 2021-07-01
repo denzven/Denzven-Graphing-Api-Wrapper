@@ -2,7 +2,7 @@ import urllib.parse
 import aiohttp
 
 python_anywhere_BASEURL = "http://denzven.pythonanywhere.com/"
-heroku_BASEURL = "https://denz-graphing-api-heroku.herokuapp.com/"
+heroku_BASEURL = "https://denzven-graphing-api.herokuapp.com/"
 
 
 def py_anywhere_graph(formula_input):
